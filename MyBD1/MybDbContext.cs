@@ -9,9 +9,10 @@ namespace MyFirstBd1
 {
     public class MybDbContext : DbContext
     {
+        
         public MybDbContext() : base("GreatDataBase")
         {
-
+            
         }
         public DbSet<User> Users { get; set; }
         

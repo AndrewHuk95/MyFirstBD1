@@ -16,7 +16,6 @@ namespace MyFirstBd1
                 Parallel.Invoke(
                     () =>
                     {
-                        //need = thread1.IsAlive;
                         thread1.Start();
                     },
                     () =>
